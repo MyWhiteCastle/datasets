@@ -125,7 +125,7 @@ class Structuresegmentation(tfds.core.GeneratorBasedBuilder):
             "image": data_array[:,:,slice],
             "label": label_array[:,:,slice]
         }
-      yield new_index, record    
+    yield new_index, record    
     
     
 
